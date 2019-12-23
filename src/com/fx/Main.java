@@ -58,7 +58,7 @@ public class Main extends Application {
 				
 		n1.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n1.getText().contentEquals(" ")) {
@@ -84,7 +84,7 @@ public class Main extends Application {
 		
 		n2.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n2.getText().contentEquals(" ")) {
@@ -110,7 +110,7 @@ public class Main extends Application {
 		
 		n3.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n3.getText().contentEquals(" ")) {
@@ -136,7 +136,7 @@ public class Main extends Application {
 		
 		n4.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n4.getText().contentEquals(" ")) {
@@ -162,7 +162,7 @@ public class Main extends Application {
 		
 		n5.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n5.getText().contentEquals(" ")) {
@@ -188,7 +188,7 @@ public class Main extends Application {
 		
 		n6.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n6.getText().contentEquals(" ")) {
@@ -214,7 +214,7 @@ public class Main extends Application {
 		
 		n7.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n7.getText().contentEquals(" ")) {
@@ -240,7 +240,7 @@ public class Main extends Application {
 		
 		n8.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n8.getText().contentEquals(" ")) {
@@ -266,7 +266,7 @@ public class Main extends Application {
 		
 		n9.setOnAction((e) -> {
 			ilmoitus.setText("");
-			if (teksti.getText().equals("Loppu!")){
+			if (teksti.getText().equals("Loppu!") || teksti.getText().contentEquals("Tasapeli!")){
 				ilmoitus.setText("Peli on loppu, ei siirtoja");
 			}
 			if (n9.getText().contentEquals(" ")) {
